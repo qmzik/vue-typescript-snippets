@@ -5,6 +5,11 @@
     "version": "0.0.1",
     "publisher": "qmzik",
     "icon": "img/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/qmzik/vue-typescript-snippets.git"
+    },
+    "keywords": ["Vue", "Vue 2", "Vue Snippets", "Vue typescript"],
     "engines": {
         "vscode": "^1.33.0"
     },
