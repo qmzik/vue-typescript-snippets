@@ -1,0 +1,26 @@
+{
+    "name": "vue-typescript-snippets",
+    "displayName": "Vue Typescript Snippets",
+    "description": "Snippets that will help your Vue + typescript workflow",
+    "version": "0.0.1",
+    "publisher": "qmzik",
+    "icon": "img/icon.png",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "vue",
+                "path": "./snippets/vue.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/vuex.json"
+            }
+        ]
+    }
+}

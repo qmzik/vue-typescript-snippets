@@ -1,0 +1,41 @@
+{
+    "Vue Component": {
+        "prefix": "v-init",
+        "description": "Vue component snippet",
+        "body": [
+            "<template>",
+            "\t<div>\n\n\t</div>",
+            "</template>",
+            "",
+            "<script lang=\"ts\">",
+            "import { Component, Prop, Vue } from 'vue-property-decorator';",
+            "",
+            "@Component",
+            "export class ${1:ComponentName} extends Vue {",
+            "",
+            "}",
+            "</script>",
+            "",
+            "<style scoped>",
+            "",
+            "</style>",
+            ""
+        ]
+    },
+    "Vuex module": {
+        "prefix": "v-store",
+        "description": "Vuex module snippet",
+        "scope": "typescript",
+        "body": [
+            "import { VuexModule, Module, getModule } from 'vuex-module-decorators';",
+            "import store from '@/store/store';",
+            "",
+            "@Module({ name: 'columns', store, dynamic: true })",
+            "class ${1:ModuleName} extends VuexModule {",
+            "\t",
+            "}",
+            "",
+            "export const ColumnsModule = getModule($1);"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "Vuex store": {
+        "prefix": "vx-init",
+        "description": "Vuex store init snippet",
+        "body": [
+            "import Vue from 'vue';",
+            "import Vuex from 'vuex';",
+            "",
+            "Vue.use(Vuex);",
+            "",
+            "export default new Vuex.Store({})",
+            ""
+        ]
+    },
+    "Vuex module": {
+        "prefix": "vx-module",
+        "description": "Vuex module snippet",
+        "body": [
+            "import { VuexModule, Module, getModule } from 'vuex-module-decorators';",
+            "import store from '@/store/store';",
+            "",
+            "@Module({ name: '${2:name}', store, dynamic: true })",
+            "class ${1:ModuleName} extends VuexModule {",
+            "\t",
+            "}",
+            "",
+            "export const ColumnsModule = getModule($1);",
+            ""
+        ]
+    }
+}
