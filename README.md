@@ -1,6 +1,6 @@
-# vue Typescript Snippets
+# Vue Typescript Snippets
 
-This is the README for your extension "vue-typescript-snippets". After writing up a brief description, we recommend including the following sections.
+This extension for Visual Studio Code adds snippets for Vue + typescript workflow
 
 ## Features
 
@@ -8,7 +8,7 @@ Describe specific features of your extension including screenshots of your exten
 
 For example if there is an image subfolder under your extension project workspace:
 
-\!\[feature X\]\(img/icon.png\)
+![Vue + Typescript]\(img/icon.png)
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
@@ -27,25 +27,13 @@ This extension contributes the following settings:
 * `myExtension.enable`: enable/disable this extension
 * `myExtension.thing`: set to `blah` to do something
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
 ## Release Notes
 
 Users appreciate release notes as you update your extension.
 
-### 1.0.0
+### 0.0.1
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Initial release two snippets
 
 -----------------------------------------------------------------------------------------------------------
 
