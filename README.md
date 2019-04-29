@@ -21,3 +21,8 @@ vx-module   // Vuex dynamic module bootstrapping
 ### 0.0.1
 
 Initial 3 snippets
+
+### 0.0.2
+
+Fixed some typo
+vfor added

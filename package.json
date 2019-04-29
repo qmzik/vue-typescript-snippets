@@ -23,6 +23,10 @@
                 "path": "./snippets/vue.json"
             },
             {
+                "language": "vue-html",
+                "path": "./snippets/vue-template.json"
+            },
+            {
                 "language": "typescript",
                 "path": "./snippets/vuex.json"
             }

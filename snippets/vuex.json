@@ -8,7 +8,7 @@
             "",
             "Vue.use(Vuex);",
             "",
-            "export default new Vuex.Store({})",
+            "export default new Vuex.Store({});",
             ""
         ]
     },
@@ -24,7 +24,7 @@
             "\t",
             "}",
             "",
-            "export const ColumnsModule = getModule($1);",
+            "export const ${1:ModuleName}Module = getModule($1);",
             ""
         ]
     }
